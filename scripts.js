@@ -24,14 +24,14 @@ buttons.map((button) => {
          case "×":
         display.innerText += "*";
         break;
-                 case "+":
+        case "+":
         display.innerText += "+";
         break;
          case "−":
         display.innerText += "-";
         break;
       case "%":
-        let passedText = display.innerText + "/100";
+      let passedText = "(" + display.innerText + ")" + "/100";
         display.innerText = eval(passedText);
         break;
       default:
